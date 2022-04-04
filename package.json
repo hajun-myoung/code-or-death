@@ -1,0 +1,16 @@
+{
+  "name": "code-or-death",
+  "version": "1.0.0",
+  "description": "A repository for building a vuepress blog of coding Test team \"code or death\"",
+  "main": "index.js",
+  "repository": "git@github.com:hajun-myoung/code-or-death.git",
+  "author": "hajun, sujeong, jeonghyun, kyungbeen, byeolhee, jiu, kihwan",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.37"
+  },
+  "scripts": {
+    "dev" : "vuepress dev docs",
+    "build" : "vuepress build docs"
+  }
+}
