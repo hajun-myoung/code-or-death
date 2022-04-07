@@ -6,6 +6,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   lang: "ko-KR",
   title: "Code or Death",
   description: "to code, or not to code. that is the problem",
+  base: "/code-or-death/",
 
   // theme and its config
   theme: "@vuepress/theme-default",
