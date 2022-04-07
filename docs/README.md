@@ -6,8 +6,11 @@ heroText: CODE OR DEATH
 tagline: to code, or not to code. that is the problem!
 actions:
   - text: 코드 아님 죽음!
-    link: /docs/
+    link: /guide/intro/
     type: primary
+  - text: 기여하는 법
+    link: /guide/contribute/
+    type: second
 features:
   - title: 코드 아님 죽음 팀리더, 백지유
     details: 내가 만든 팀이지만...뭐야 몰라 무서워
