@@ -22,6 +22,39 @@ export default defineUserConfig<DefaultThemeOptions>({
     ],
     backToHome: "돌아가자...",
     search: true,
+
+    // navigation bar
+    navbar: [
+      {
+        text: "Contributors",
+        children: [
+          {
+            text: "hajun",
+            link: "/hajun/",
+          },
+          {
+            text: "byeolhee",
+            link: "/byeolhee/",
+          },
+          {
+            text: "kihwan",
+            link: "/kihwan/",
+          },
+          {
+            text: "jeonghyun",
+            link: "/nliker/",
+          },
+          {
+            text: "jiu",
+            link: "/rnrn99/",
+          },
+          {
+            text: "sujeong",
+            link: "/sujeong/",
+          },
+        ],
+      },
+    ],
   },
 
   plugins: [],
