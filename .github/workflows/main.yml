@@ -27,8 +27,8 @@ jobs:
       - name: Cache dependencies
         uses: actions/cache@v2
         id: yarn-cache
-        run: echo "::set-output name=dir::$(yarn cache dir)"
         with:
+          run: echo "::set-output name=dir::$(yarn cache dir)"
           path: |
             **/node_modules
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
