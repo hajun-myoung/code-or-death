@@ -13,7 +13,7 @@ actions:
     type: second
 features:
   - title: 코드 아님 죽음 팀리더, 백지유
-    details: 내가 만든 팀이지만...뭐야 몰라 무서워
+    details: 한화가 우승할 때까지 코테 열공하겠습니다🦅
   - title: CICD에 미련을 품은 자, 박수정
     details: 디자인에 미쳐버린 백엔드. 이것이...풀스택?
   - title: 저는 디자이넌가봐요...명하준

@@ -46,8 +46,8 @@ export default defineUserConfig<DefaultThemeOptions>({
             link: "/nliker/",
           },
           {
-            text: "jiu",
-            link: "/rnrn99/",
+            text: "jiyu",
+            link: "/jiyu/",
           },
           {
             text: "sujeong",
