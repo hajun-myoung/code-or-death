@@ -4,7 +4,7 @@
   "description": "A repository for building a vuepress blog of coding Test team \"code or death\"",
   "main": "index.js",
   "repository": "git@github.com:hajun-myoung/code-or-death.git",
-  "author": "hajun, sujeong, jeonghyun, kyungbeen, byeolhee, jiu, kihwan",
+  "author": "hajun, sujeong, jeonghyun, kyungbeen, byeolhee, jiyu, kihwan",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^4.6.3",
