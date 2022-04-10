@@ -1,5 +1,7 @@
 # Hola, this is DENVER(hajun)
 
+> DENVER 는 제 개발자 이름입니다. '덴버' 아니고 '덴베르' 에요!
+
 <table class="hajun-table">
     <tr>
         <td rowspan="2">
@@ -7,15 +9,15 @@
         </td>
         <td>
             <ul>
-                <li>Email</li>
+                <li style="color: navy; font-weight: bold;">Email</li>
                     fe.dev.denver@gmail.com
-                <li>Instagram</li>
+                <li style="color: navy; font-weight: bold;">Instagram</li>
                     @dev_hajun
-                <li>Blog</li>
+                <li style="color: navy; font-weight: bold;">Blog</li>
                     UNTIL : github pages에 디플로잉하여 운영중
-                <li>Status</li>
+                <li style="color: navy; font-weight: bold;">Status</li>
                     현재 엘리스코드 AI트랙 4기로 참여중
-                <li>Military Service</li>
+                <li style="color: navy; font-weight: bold;">Military Service</li>
                     육군병장만기전역, FEB 25, 2020 ~ SEP 2, 2021
             </ul>
         </td>
@@ -23,16 +25,30 @@
     <tr>
         <td style="font-style: italic">
             Links to
-            <a href="mailto:fe.dev.denver@gmail.com">E-Mail </a>
-            <a href="https://www.instagram.com/dev_hajun/">Insta </a>
-            <a href="https://hajun-myoung.github.io/until/">Blog </a>
-            <a href="https://github.com/hajun-myoung/">github</a>
+            <a href="mailto:fe.dev.denver@gmail.com">E-Mail </a>,
+            <a href="https://www.instagram.com/dev_hajun/">Insta </a>,
+            <a href="https://hajun-myoung.github.io/until/">Blog </a>,
+            <a href="https://github.com/hajun-myoung/">github</a>,
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <span style="font-style: italic">Front-End Developer Aspiring Student</span>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <ul>
+                <li>풀스택을 목표로 계속 공부하는 프론트엔드 개발자</li>
+                <li>디자인 요소에 관심이 많은 개발자</li>
+                <li>'겉멋'을 좋아하는 개발자. *보기 좋은 떡이 먹기도 좋은 법!*</li>
+            </ul>
         </td>
     </tr>
 </table>
 
 ## Log
 
-> 날짜별로 기재
+> like a TIL project, 날짜별 기재
 
 - Apr 10, 2022
