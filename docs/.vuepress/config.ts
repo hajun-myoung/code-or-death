@@ -56,6 +56,10 @@ export default defineUserConfig<DefaultThemeOptions>({
         ],
       },
     ],
+
+    sidebar: {
+      "/guide/contribute/": ["README.md", "configGuide.md"],
+    },
   },
 
   plugins: [],
