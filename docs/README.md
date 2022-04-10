@@ -22,7 +22,7 @@ features:
     details: 코딩테스트 못함
   - title: 정현님 자리
     details: 정현님 설명자리
-  - title: 별희님 자리
-    details: 별희님 설명자리
+  - title: return Death, 김별희
+    details: 어느 새부터 heappop은 안멋져
 footer: MIT Licensed | Copyright © 2022 team Code or Death
 ---
