@@ -1,5 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import type { DefaultThemeOptions } from "vuepress";
+import { baekjoon_jy, leetcode_jy } from "./sidebar/jiyu";
 
 export default defineUserConfig<DefaultThemeOptions>({
   // site config
@@ -59,6 +60,9 @@ export default defineUserConfig<DefaultThemeOptions>({
 
     sidebar: {
       "/guide/contribute/": ["README.md", "configGuide.md", "docEditGuide.md"],
+      "/jiyu/": ["README.md", "baekjoon.md", "leetcode.md", "programmers.md"],
+      "/jiyu/baekjoon/": baekjoon_jy,
+      "/jiyu/leetcode/": leetcode_jy,
     },
   },
 
