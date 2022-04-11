@@ -1,6 +1,5 @@
 import { defineUserConfig } from "vuepress";
 import type { DefaultThemeOptions } from "vuepress";
-import { baekjoon_jy, leetcode_jy, programmers_jy } from "./sidebar/jiyu";
 
 export default defineUserConfig<DefaultThemeOptions>({
   // site config
@@ -61,9 +60,22 @@ export default defineUserConfig<DefaultThemeOptions>({
     sidebar: {
       "/guide/contribute/": ["README.md", "configGuide.md", "docEditGuide.md"],
       "/jiyu/": ["README.md", "baekjoon.md", "leetcode.md", "programmers.md"],
-      "/jiyu/baekjoon/": baekjoon_jy,
-      "/jiyu/leetcode/": leetcode_jy,
-      "/jiyu/programmers/": programmers_jy,
+      "/jiyu/baekjoon/": [
+        "../baekjoon.md",
+        "bj_11508.md",
+        "bj_1343.md",
+        "bj_10814.md",
+        "bj_10825.md",
+      ],
+      "/jiyu/leetcode/": [
+        "../leetcode.md",
+        "lc_9.md",
+        "lc_125.md",
+        "lc_455.md",
+        "lc_720.md",
+        "lc_11.md",
+      ],
+      "/jiyu/programmers/": ["../programmers.md", "pg_81301.md", "pg_42883.md"],
     },
   },
 
