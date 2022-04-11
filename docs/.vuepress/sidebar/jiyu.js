@@ -6,6 +6,6 @@ const leetcode_jy = [
   "lc_720.md",
   "lc_11.md",
 ];
-const programmers_jy = ["pg_81301.md"];
+const programmers_jy = ["pg_81301.md", "pg_42883.md"];
 
 module.exports = { baekjoon_jy, leetcode_jy, programmers_jy };
