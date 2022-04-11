@@ -58,7 +58,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     ],
 
     sidebar: {
-      "/guide/contribute/": ["README.md", "configGuide.md"],
+      "/guide/contribute/": ["README.md", "configGuide.md", "docEditGuide.md"],
     },
   },
 
