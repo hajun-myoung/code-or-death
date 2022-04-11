@@ -14,7 +14,7 @@ actions:
 features:
   - title: 코드 아님 죽음 팀리더, 백지유
     details: 내가 만든 팀이지만...뭐야 몰라 무서워
-  - title: CICD에 미련을 품은 자, 박수정
+  - title: 모각코 러버, 박수정
     details: 디자인에 미쳐버린 백엔드. 이것이...풀스택?
   - title: 저는 디자이넌가봐요...명하준
     details: 엘리스 코치님들 죄송합니다 😭

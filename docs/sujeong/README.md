@@ -1,3 +1,11 @@
-# Contributor 개인 페이지입니다
+---
+next: true
+sidebar: auto
+sidebarDepth: 2
+---
+# 백준
 
-README.md 파일입니다
+## 문제1
+
+## 문제2
+
