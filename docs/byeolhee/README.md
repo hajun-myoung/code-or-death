@@ -1,3 +1,11 @@
-# Contributor 개인 페이지입니다
+# 자료구조
 
-README.md 파일입니다
+<br/><br/>
+
+# 알고리즘
+
+## [문자열](./algorithm/string/README.md)
+
+## [그리디](./algorithm/greedy/README.md)
+
+## [정렬](./algorithm/sort/README.md)
