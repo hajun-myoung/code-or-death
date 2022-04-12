@@ -13,3 +13,7 @@
 #### [125. Valid Palindrome](/code-or-death/jiyu/leetcode/lc_125.md)
 
 #### [720. Longest Word in Dictionary](/code-or-death/jiyu/leetcode/lc_720.md)
+
+## 자료구조
+
+#### [20. Valid Parentheses](/code-or-death/jiyu/leetcode/lc_20.md)
