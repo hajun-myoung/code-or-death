@@ -53,6 +53,10 @@ export default defineUserConfig<DefaultThemeOptions>({
             text: "sujeong",
             link: "/sujeong/",
           },
+          {
+            text: "kyungbeen",
+            link: "/kyungbeen/",
+          },
         ],
       },
     ],
