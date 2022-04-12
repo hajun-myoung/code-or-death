@@ -8,6 +8,17 @@ export default defineUserConfig<DefaultThemeOptions>({
   description: "to code, or not to code. that is the problem",
   base: "/code-or-death/",
 
+  extendsMarkdown: (md) => {
+    const orignalRender = md.render;
+    const HEART_EMOJIS = /❤️/g;
+    const REPLACER = "&lt3";
+
+    md.render = (src, env) => {
+      let sub = orignalRender(src, env);
+      return sub.replace(HEART_EMOJIS, REPLACER);
+    };
+  },
+
   // theme and its config
   theme: "@vuepress/theme-default",
   themeConfig: {
