@@ -6,6 +6,10 @@
 
 #### [[백준 1343번] 폴리오미노](/code-or-death/jiyu/baekjoon/bj_1343.md)
 
+## 문자열
+
+#### [[백준 1254번] 팰린드롬 만들기](/code-or-death/jiyu/baekjoon/bj_1254.md)
+
 ## 정렬
 
 #### [[백준 10814번] 나이순 정렬](/code-or-death/jiyu/baekjoon/bj_10814.md)
