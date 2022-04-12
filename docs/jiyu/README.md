@@ -1,8 +1,7 @@
 # Intro
 
-![header](https://capsule-render.vercel.app/api?type=wave&color=gradient&height=150&section=header&customColorList=0,1,2,15)
-
 <div style="text-align:center;">
+    <img src="https://capsule-render.vercel.app/api?type=wave&color=gradient&height=150&section=header&customColorList=0,1,2,15" alt="header">
     <h1>HI THERE!</h1>
     <img src="http://mazassumnida.wtf/api/generate_badge?boj=giu0213" alt="boj"/>
     <br />
@@ -22,7 +21,5 @@
     <a href="https://github.com/rnrn99">
         <img src="https://img.shields.io/badge/github-000000?style=for-the-badge&logo=Github&logoColor=white"/>
     </a>
-    
+    <img src="https://capsule-render.vercel.app/api?type=wave&color=gradient&height=150&section=footer&reversal=true&customColorList=0,1,2,15" alt="footer">
 </div>
-
-![footer](https://capsule-render.vercel.app/api?type=wave&color=gradient&height=150&section=footer&reversal=true&customColorList=0,1,2,15)
