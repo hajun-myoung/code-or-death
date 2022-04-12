@@ -11,3 +11,7 @@
 #### [[백준 10814번] 나이순 정렬](/code-or-death/jiyu/baekjoon/bj_10814.md)
 
 #### [[백준 10825번] 국영수](/code-or-death/jiyu/baekjoon/bj_10825.md)
+
+## 자료구조
+
+#### [[백준 1158번] 요세푸스 문제](/code-or-death/jiyu/baekjoon/bj_1158.md)
