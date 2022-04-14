@@ -81,6 +81,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         "lc_720.md",
         "lc_11.md",
         "lc_20.md",
+        "lc_1.md",
       ],
       "/jiyu/programmers/": ["../programmers.md", "pg_81301.md", "pg_42883.md"],
     },

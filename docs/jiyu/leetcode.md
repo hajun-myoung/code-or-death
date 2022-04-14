@@ -17,3 +17,5 @@
 ## 자료구조
 
 #### [20. Valid Parentheses](/code-or-death/jiyu/leetcode/lc_20.md)
+
+#### [1. Two Sum](/code-or-death/jiyu/leetcode/lc_1.md)
