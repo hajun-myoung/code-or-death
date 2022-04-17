@@ -10,6 +10,8 @@
 
 #### [[백준 1254번] 팰린드롬 만들기](/code-or-death/jiyu/baekjoon/bj_1254.md)
 
+#### [[백준 14425번] 문자열 집합](/code-or-death/jiyu/baekjoon/bj_14425.md)
+
 ## 정렬
 
 #### [[백준 10814번] 나이순 정렬](/code-or-death/jiyu/baekjoon/bj_10814.md)
