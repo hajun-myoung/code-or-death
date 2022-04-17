@@ -74,6 +74,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         "bj_1254.md",
         "bj_1935.md",
         "bj_2263.md",
+        "bj_1966.md",
       ],
       "/jiyu/leetcode/": [
         "../leetcode.md",

@@ -22,6 +22,8 @@
 
 #### [[백준 1935번] 후위 표기식2](/code-or-death/jiyu/baekjoon/bj_1935.md)
 
+#### [[백준 1966번] 프린터 큐](/code-or-death/jiyu/baekjoon/bj_1966.md)
+
 ## 트리
 
 #### [[백준 2263번] 트리의 순회](/code-or-death/jiyu/baekjoon/bj_2263.md)
