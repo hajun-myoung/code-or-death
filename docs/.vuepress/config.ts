@@ -92,6 +92,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         "pg_81301.md",
         "pg_42883.md",
         "pg_42587.md",
+        "pg_42586.md",
       ],
     },
   },
