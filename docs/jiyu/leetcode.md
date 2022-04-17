@@ -19,3 +19,5 @@
 #### [20. Valid Parentheses](/code-or-death/jiyu/leetcode/lc_20.md)
 
 #### [1. Two Sum](/code-or-death/jiyu/leetcode/lc_1.md)
+
+#### [36. Valid Sudoku](/code-or-death/jiyu/leetcode/lc_36.md)
