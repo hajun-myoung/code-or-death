@@ -63,6 +63,38 @@ export default defineUserConfig<DefaultThemeOptions>({
 
     sidebar: {
       "/guide/contribute/": ["README.md", "configGuide.md", "docEditGuide.md"],
+      "/jiyu/": ["README.md", "baekjoon.md", "leetcode.md", "programmers.md"],
+      "/jiyu/baekjoon/": [
+        "../baekjoon.md",
+        "bj_11508.md",
+        "bj_1343.md",
+        "bj_10814.md",
+        "bj_10825.md",
+        "bj_1158.md",
+        "bj_1254.md",
+        "bj_1935.md",
+        "bj_2263.md",
+        "bj_1966.md",
+        "bj_14425.md",
+      ],
+      "/jiyu/leetcode/": [
+        "../leetcode.md",
+        "lc_9.md",
+        "lc_125.md",
+        "lc_455.md",
+        "lc_720.md",
+        "lc_11.md",
+        "lc_20.md",
+        "lc_1.md",
+        "lc_36.md",
+      ],
+      "/jiyu/programmers/": [
+        "../programmers.md",
+        "pg_81301.md",
+        "pg_42883.md",
+        "pg_42587.md",
+        "pg_42586.md",
+      ],
     },
   },
 
