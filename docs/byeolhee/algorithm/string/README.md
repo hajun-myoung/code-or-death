@@ -2,6 +2,8 @@
 
 ## 백준
 
+- [문자열 집합](boj_14425.md)
+
 ## LEETCODE
 
 - [Palidrome number](leet_9.md)
