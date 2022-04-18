@@ -182,7 +182,17 @@ html.dark .DocSearch {
 .hajun-gradient{
   font-style: italic;
   font-weight: bold;
-  background: linear-gradient(to right, rgba(255,0,0,0.2), rgba(255,0,0,1));
+  background: linear-gradient(to right, rgba(255,0,0,1), rgba(255,0,0,0.4));
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.portfolio-category{
+  color: navy;
+  font-weight: bold;
+}
+
+html.dark .portfolio-category{
+  color: skyblue;
+  font-weight: bold;
 }
