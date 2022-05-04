@@ -95,6 +95,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         "pg_42587.md",
         "pg_42586.md",
       ],
+      "/kihwan/": ["README.md", "1week.md", "2week.md"],
     },
   },
 
