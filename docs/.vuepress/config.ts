@@ -46,8 +46,8 @@ export default defineUserConfig<DefaultThemeOptions>({
             link: "/nliker/",
           },
           {
-            text: "jiu",
-            link: "/rnrn99/",
+            text: "jiyu",
+            link: "/jiyu/",
           },
           {
             text: "sujeong",
@@ -56,6 +56,16 @@ export default defineUserConfig<DefaultThemeOptions>({
         ],
       },
     ],
+
+    sidebar: {
+      "/guide/contribute/": ["README.md", "configGuide.md", "docEditGuide.md"],
+      "/sujeong/": [
+        "README.md",
+        "baekjoon.md",
+        "leetcode.md",
+        "programmars.md",
+      ],
+    },
   },
 
   plugins: [],
