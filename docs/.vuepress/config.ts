@@ -60,7 +60,7 @@ export default defineUserConfig<DefaultThemeOptions>({
                 ],
             },
         ],
-
+     
         sidebar: {
             '/guide/contribute/': [
                 'README.md',
@@ -107,7 +107,14 @@ export default defineUserConfig<DefaultThemeOptions>({
             '/kihwan/': ['README.md', '1week.md', '2week.md'],
             '/nliker/bj/': ['sort.md', 'greedy.md'],
             '/nliker/leetcode/': ['program.md'],
+               "/sujeong/": [
+        "README.md",
+        "baekjoon.md",
+        "leetcode.md",
+        "programmars.md",
+      ],
         },
+
     },
 
     plugins: [],
