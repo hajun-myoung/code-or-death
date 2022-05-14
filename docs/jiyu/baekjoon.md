@@ -29,3 +29,7 @@
 ## 트리
 
 #### [[백준 2263번] 트리의 순회](/code-or-death/jiyu/baekjoon/bj_2263.md)
+
+## 투포인터
+
+#### [[백준 1806번] 부분합](/code-or-death/jiyu/baekjoon/bj_1806.md)
