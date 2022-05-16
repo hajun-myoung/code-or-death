@@ -18,6 +18,10 @@
 
 ## [정렬](./algorithm/sort/README.md)
 
+## [완전탐색](./algorithm/bruteforce/README.md)
+
+## [투포인터&슬라이딩윈도우](./algorithm/twopointer_slidingwindow/README.md)
+
 <br/><br/>
 
 # 😎🤦‍♀️🤦‍♂️🤷‍♀️🤷‍♂️😎
@@ -44,3 +48,11 @@
 - [문자열 집합](./algorithm/string/boj_14425.md)
 - [Valid-parentheses](./datastructure/stack/leet_20.md)
 - [Two Sum](./datastructure/array/leet_1.md)
+
+## 5/10 ~ 5/15
+
+- [모의고사](./algorithm/bruteforce/pg_42840.md)
+- [소수 찾기](./algorithm/bruteforce/pg_42839.md)
+- [카펫](./algorithm/bruteforce/pg_42842.md)
+- [블로그](./algorithm/twopointer_slidingwindow/boj_21921.md)
+- [Happy number](./algorithm/twopointer_slidingwindow/leet_202.md)
