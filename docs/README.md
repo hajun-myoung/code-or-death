@@ -20,15 +20,15 @@ features:
     details: 엘리스 코치님들 죄송합니다 😭
   - title: 코딩허접 기환님
     details: 코딩테스트 못함
-  - title: 
-    details: 
+  - title:
+    details:
   - title: 정현님 자리
     details: 정현님 설명자리
   - title: return Death, 김별희
     details: 어느 새부터 heappop은 안멋져
-  - title: 
-    details: 
-  - title: 경빈님 자리
-    details: 경빈님 설명자리
+  - title:
+    details:
+  - title: 아기개발자, 김경빈입니다
+    details: 응애👶🏻
 footer: MIT Licensed | Copyright © 2022 team Code or Death
 ---
