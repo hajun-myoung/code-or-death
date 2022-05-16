@@ -60,7 +60,7 @@ export default defineUserConfig<DefaultThemeOptions>({
                 ],
             },
         ],
-     
+
         sidebar: {
             '/guide/contribute/': [
                 'README.md',
@@ -85,6 +85,10 @@ export default defineUserConfig<DefaultThemeOptions>({
                 'bj_2263.md',
                 'bj_1966.md',
                 'bj_14425.md',
+                'bj_1806.md',
+                'bj_21921.md',
+                'bj_22862.md',
+                'bj_2470.md',
             ],
             '/jiyu/leetcode/': [
                 '../leetcode.md',
@@ -105,16 +109,15 @@ export default defineUserConfig<DefaultThemeOptions>({
                 'pg_42586.md',
             ],
             '/kihwan/': ['README.md', '1week.md', '2week.md'],
-            '/nliker/bj/': ['sort.md', 'greedy.md','search.md'],
+            '/nliker/bj/': ['sort.md', 'greedy.md', 'search.md'],
             '/nliker/leetcode/': ['program.md'],
-               "/sujeong/": [
-        "README.md",
-        "baekjoon.md",
-        "leetcode.md",
-        "programmars.md",
-      ],
+            '/sujeong/': [
+                'README.md',
+                'baekjoon.md',
+                'leetcode.md',
+                'programmars.md',
+            ],
         },
-
     },
 
     plugins: [],
