@@ -105,7 +105,7 @@ export default defineUserConfig<DefaultThemeOptions>({
                 'pg_42586.md',
             ],
             '/kihwan/': ['README.md', '1week.md', '2week.md'],
-            '/nliker/bj/': ['sort.md', 'greedy.md'],
+            '/nliker/bj/': ['sort.md', 'greedy.md','search.md'],
             '/nliker/leetcode/': ['program.md'],
                "/sujeong/": [
         "README.md",
