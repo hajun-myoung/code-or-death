@@ -45,3 +45,58 @@ for a in arr:
         price+=a
 print(price)
 ```
+
+### 블로그
+
+```pyton
+import sys
+input = sys.stdin.readline
+
+n, x = map(int, input().split(' '))
+visitors=list(map(int, input().split(' ')))
+
+if max(visitors) == 0:
+    print("SAD")
+else:
+    max_visitor=sum(visitors[:x])
+    count_visitor=1
+    sum_visitor=max_visitor
+    for i in range(n-x):
+            sum_visitor+=visitors[x+i]
+            sum_visitor-=visitors[i]
+            if sum_visitor > max_visitor:
+                max_visitor=sum_visitor
+                count_visitor=1
+            elif sum_visitor == max_visitor:
+                max_visitor=sum_visitor
+                count_visitor+=1
+    print(max_visitor)
+    print(count_visitor)
+```
+
+### 두 용액
+
+```pyton
+import sys
+input = sys.stdin.readline
+
+n = int(input())
+solutions=sorted(list(map(int, input().split(' '))))
+forward = 0
+back = n-1
+temp = abs(solutions[forward] + solutions[back])
+acid = solutions[forward]
+alkalinity = solutions[back]
+while forward < back:
+    result = solutions[forward] + solutions[back]
+    abs_result = abs(result)
+    if temp > abs_result:
+        temp = abs_result
+        acid = solutions[forward]
+        alkalinity = solutions[back]
+    if result > 0:
+        back -= 1
+    else:
+        forward += 1
+print(acid, alkalinity)
+```
