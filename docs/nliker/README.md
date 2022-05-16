@@ -1,3 +1,5 @@
-# Contributor 개인 페이지입니다
+# LeetCode
 
-README.md 파일입니다
+## [백준](./bj/)
+
+## [리트코드](./leetcode/)
