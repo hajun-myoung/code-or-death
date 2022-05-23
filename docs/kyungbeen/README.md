@@ -2,7 +2,7 @@
 
 > 베짱이 포지션을 맡고 있죠
 
-현재 취업 준비 중이고 백엔드 공부하고 있습니다.
+백엔드 공부하고 있습니다.
 
 코딩테스트 준비 겸 code-or-death에 합류했어요.
 
@@ -26,7 +26,7 @@
 
 [10825번 국영수](./baekjoon/boj_10825.md)
 
-<br/>
+<br/><hr/><br/>
 
 ## **week2** [4/12~ 4/16] (data structures)<br/>
 
@@ -38,7 +38,7 @@
 
 [1966번 프린터 큐](./baekjoon/boj_1966.md)
 
-<br/>
+<br/><hr/><br/>
 
 ## **week3** [5/10 ~ 5/15] (two pointers, brute force)
 
@@ -51,3 +51,17 @@
 [2470번 두 용액](./baekjoon/boj_2470.md)
 
 [1806번 부분합](./baekjoon/boj_1806.md)
+
+<br/><hr/><br/>
+
+## **week4** [5/17 ~ 5/20] (DFS, BFS)
+
+#### _BOJ_
+
+[2606번 바이러스](./baekjoon/boj_2606.md)
+
+[16956번 늑대와 양](./baekjoon/boj_16956.md)
+
+[11725번 트리의 부모찾기](./baekjoon/boj_11725.md)
+
+[2178번 미로 탐색]()
