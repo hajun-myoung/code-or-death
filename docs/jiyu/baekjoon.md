@@ -41,3 +41,9 @@
 ## 슬라이딩 윈도우
 
 #### [[백준 21921번] 블로그](/code-or-death/jiyu/baekjoon/bj_21921.md)
+
+## DFS/BFS
+
+#### [[백준 16956번] 늑대와 양](/code-or-death/jiyu/baekjoon/bj_16956.md)
+
+#### [[백준 2606번] 바이러스](/code-or-death/jiyu/baekjoon/bj_2606.md)
