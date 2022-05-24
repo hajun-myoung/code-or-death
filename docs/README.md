@@ -29,6 +29,6 @@ features:
   - title:
     details:
   - title: 아기개발자, 김경빈입니다
-    details: 응애👶🏻
+    details: 응애👶🏻......
 footer: MIT Licensed | Copyright © 2022 team Code or Death
 ---
