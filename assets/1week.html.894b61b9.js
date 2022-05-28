@@ -1,0 +1,1 @@
+const e={key:"v-cac53860",path:"/kihwan/1week.html",title:"",lang:"ko-KR",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1651678141e3,contributors:[{name:"sungkihwan",email:"singahu@naver.com",commits:1}]},filePathRelative:"kihwan/1week.md"};export{e as data};

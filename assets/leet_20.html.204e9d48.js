@@ -1,0 +1,1 @@
+const e={key:"v-c486b3ec",path:"/byeolhee/datastructure/stack/leet_20.html",title:"Valid-parentheses",lang:"ko-KR",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:165027307e4,contributors:[{name:"KimByeolhee",email:"qufgml0216@naver.com",commits:1}]},filePathRelative:"byeolhee/datastructure/stack/leet_20.md"};export{e as data};

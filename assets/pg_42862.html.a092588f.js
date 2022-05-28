@@ -1,0 +1,1 @@
+const e={key:"v-5b4fe3f5",path:"/byeolhee/algorithm/greedy/pg_42862.html",title:"\uCCB4\uC721\uBCF5",lang:"ko-KR",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1649689045e3,contributors:[{name:"KimByeolhee",email:"qufgml0216@naver.com",commits:1}]},filePathRelative:"byeolhee/algorithm/greedy/pg_42862.md"};export{e as data};

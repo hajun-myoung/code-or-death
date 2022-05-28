@@ -1,0 +1,1 @@
+const e={key:"v-11834ebb",path:"/byeolhee/datastructure/linkedlist/boj_1158.html",title:"\uC694\uC138\uD478\uC2A4 \uBB38\uC81C",lang:"ko-KR",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:165027307e4,contributors:[{name:"KimByeolhee",email:"qufgml0216@naver.com",commits:1}]},filePathRelative:"byeolhee/datastructure/linkedlist/boj_1158.md"};export{e as data};

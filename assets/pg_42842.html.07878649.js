@@ -1,0 +1,1 @@
+const e={key:"v-caa31e30",path:"/byeolhee/algorithm/bruteforce/pg_42842.html",title:"\uCE74\uD3AB",lang:"ko-KR",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1652677964e3,contributors:[{name:"KimByeolhee",email:"qufgml0216@naver.com",commits:1}]},filePathRelative:"byeolhee/algorithm/bruteforce/pg_42842.md"};export{e as data};

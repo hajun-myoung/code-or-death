@@ -1,0 +1,1 @@
+const e={key:"v-f080fb54",path:"/byeolhee/algorithm/twopointer_slidingwindow/boj_2470.html",title:"\uB450 \uC6A9\uC561",lang:"ko-KR",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1653291347e3,contributors:[{name:"KimByeolhee",email:"qufgml0216@naver.com",commits:1}]},filePathRelative:"byeolhee/algorithm/twopointer_slidingwindow/boj_2470.md"};export{e as data};

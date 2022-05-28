@@ -1,0 +1,13 @@
+import{_ as n,r as a,o as s,c as r,a as i,b as t,w as l,F as c,e as p,d}from"./app.ab7b14ba.js";const o={},u=d("KyungBeen"),b=p(`<h1 id="_1158\u1107\u1165\u11AB-\u110B\u116D\u1109\u1166\u1111\u116E\u1109\u1173-\u1106\u116E\u11AB\u110C\u1166" tabindex="-1"><a class="header-anchor" href="#_1158\u1107\u1165\u11AB-\u110B\u116D\u1109\u1166\u1111\u116E\u1109\u1173-\u1106\u116E\u11AB\u110C\u1166" aria-hidden="true">#</a> 1158\uBC88 \uC694\uC138\uD478\uC2A4 \uBB38\uC81C</h1><h2 id="input" tabindex="-1"><a class="header-anchor" href="#input" aria-hidden="true">#</a> Input</h2><p>\uCCAB\uC9F8 \uC904\uC5D0 N\uACFC K\uAC00 \uBE48 \uCE78\uC744 \uC0AC\uC774\uC5D0 \uB450\uACE0 \uC21C\uC11C\uB300\uB85C \uC8FC\uC5B4\uC9C4\uB2E4. (1 \u2264 K \u2264 N \u2264 5,000) <br><br></p><h2 id="output" tabindex="-1"><a class="header-anchor" href="#output" aria-hidden="true">#</a> Output</h2><p>\uC608\uC81C\uC640 \uAC19\uC774 \uC694\uC138\uD478\uC2A4 \uC21C\uC5F4\uC744 \uCD9C\uB825\uD55C\uB2E4. <br><br></p><h2 id="explanation" tabindex="-1"><a class="header-anchor" href="#explanation" aria-hidden="true">#</a> Explanation</h2><ul><li><p>1\uBD80\uD130 n\uAE4C\uC9C0\uC758 list\uC5D0\uC11C \uBC18\uBCF5\uBB38\uC744 \uB3CC\uBA70 k\uBC88\uC9F8 index\uB9CC \uAC00\uC838\uC634</p></li><li><p>index\uAC00 \uB9AC\uC2A4\uD2B8\uB97C \uCD08\uACFC\uD558\uB294 \uACBD\uC6B0, index\uB97C \uADF8 \uCD08\uACFC\uBD84\uC73C\uB85C \uCD08\uAE30\uD654 <br><br></p></li></ul><h2 id="code" tabindex="-1"><a class="header-anchor" href="#code" aria-hidden="true">#</a> Code</h2><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>line = input().split()
+n, k = map(int, line)
+
+circle = list(range(1, n + 1))
+answer = []
+idx = 0
+
+while circle:
+    idx = (idx + k - 1) % len(circle)
+    answer.append(str(circle.pop(idx)))
+
+print(&#39;&lt;&#39; + &#39;, &#39;.join(answer) + &#39;&gt;&#39;)
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div>`,9);function h(m,x){const e=a("RouterLink");return s(),r(c,null,[i("p",null,[t(e,{to:"/kyungbeen/"},{default:l(()=>[u]),_:1})]),b],64)}var f=n(o,[["render",h],["__file","boj_1158.html.vue"]]);export{f as default};

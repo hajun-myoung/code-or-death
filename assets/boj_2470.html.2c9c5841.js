@@ -1,0 +1,27 @@
+import{_ as s,r as a,o as e,c as r,a as l,b as i,w as p,F as t,e as b,d as c}from"./app.ab7b14ba.js";const u={},o=c("KyungBeen"),d=b(`<h1 id="_2470\u1107\u1165\u11AB-\u1103\u116E-\u110B\u116D\u11BC\u110B\u1162\u11A8" tabindex="-1"><a class="header-anchor" href="#_2470\u1107\u1165\u11AB-\u1103\u116E-\u110B\u116D\u11BC\u110B\u1162\u11A8" aria-hidden="true">#</a> 2470\uBC88 \uB450 \uC6A9\uC561</h1><h2 id="input" tabindex="-1"><a class="header-anchor" href="#input" aria-hidden="true">#</a> Input</h2><p>\uCCAB\uC9F8 \uC904\uC5D0\uB294 \uC804\uCCB4 \uC6A9\uC561\uC758 \uC218 N\uC774 \uC785\uB825\uB41C\uB2E4. N\uC740 2 \uC774\uC0C1 100,000 \uC774\uD558\uC774\uB2E4. \uB458\uC9F8 \uC904\uC5D0\uB294 \uC6A9\uC561\uC758 \uD2B9\uC131\uAC12\uC744 \uB098\uD0C0\uB0B4\uB294 N\uAC1C\uC758 \uC815\uC218\uAC00 \uBE48\uCE78\uC744 \uC0AC\uC774\uC5D0 \uB450\uACE0 \uC8FC\uC5B4\uC9C4\uB2E4. \uC774 \uC218\uB4E4\uC740 \uBAA8\uB450 -1,000,000,000 \uC774\uC0C1 1,000,000,000 \uC774\uD558\uC774\uB2E4. N\uAC1C\uC758 \uC6A9\uC561\uB4E4\uC758 \uD2B9\uC131\uAC12\uC740 \uBAA8\uB450 \uB2E4\uB974\uACE0, \uC0B0\uC131 \uC6A9\uC561\uB9CC\uC73C\uB85C\uB098 \uC54C\uCE7C\uB9AC\uC131 \uC6A9\uC561\uB9CC\uC73C\uB85C \uC785\uB825\uC774 \uC8FC\uC5B4\uC9C0\uB294 \uACBD\uC6B0\uB3C4 \uC788\uC744 \uC218 \uC788\uB2E4. <br><br></p><h2 id="output" tabindex="-1"><a class="header-anchor" href="#output" aria-hidden="true">#</a> Output</h2><p>\uCCAB\uC9F8 \uC904\uC5D0 \uD2B9\uC131\uAC12\uC774 0\uC5D0 \uAC00\uC7A5 \uAC00\uAE4C\uC6B4 \uC6A9\uC561\uC744 \uB9CC\uB4E4\uC5B4\uB0B4\uB294 \uB450 \uC6A9\uC561\uC758 \uD2B9\uC131\uAC12\uC744 \uCD9C\uB825\uD55C\uB2E4. \uCD9C\uB825\uD574\uC57C \uD558\uB294 \uB450 \uC6A9\uC561\uC740 \uD2B9\uC131\uAC12\uC758 \uC624\uB984\uCC28\uC21C\uC73C\uB85C \uCD9C\uB825\uD55C\uB2E4. \uD2B9\uC131\uAC12\uC774 0\uC5D0 \uAC00\uC7A5 \uAC00\uAE4C\uC6B4 \uC6A9\uC561\uC744 \uB9CC\uB4E4\uC5B4\uB0B4\uB294 \uACBD\uC6B0\uAC00 \uB450 \uAC1C \uC774\uC0C1\uC77C \uACBD\uC6B0\uC5D0\uB294 \uADF8 \uC911 \uC544\uBB34\uAC83\uC774\uB098 \uD558\uB098\uB97C \uCD9C\uB825\uD55C\uB2E4. <br><br></p><h2 id="explanation" tabindex="-1"><a class="header-anchor" href="#explanation" aria-hidden="true">#</a> Explanation</h2><ul><li><p>0\uC5D0 \uAC00\uC7A5 \uAC00\uAE4C\uC6B4 \uC6A9\uC561\uC758 \uD2B9\uC131\uAC12\uC744 \uCD9C\uB825\uD574\uC57C \uD558\uBBC0\uB85C \uC808\uB313\uAC12\uC744 \uC774\uC6A9\uD55C\uB2E4.</p></li><li><p>\uB450 \uAC1C\uC758 \uD3EC\uC778\uD130\uB97C \uC774\uB3D9\uD558\uBA70 \uD63C\uD569\uD55C \uC6A9\uC561\uC758 \uD2B9\uC131\uAC12\uC744 \uACC4\uC0B0\uD558\uC5EC \uBE44\uAD50.</p></li><li><p>\uCD9C\uB825\uBB38\uC5D0\uC11C \uB450 \uC6A9\uC561\uC744 \uC624\uB984\uCC28\uC21C\uC73C\uB85C \uCD9C\uB825\uD574\uC57C \uD558\uB294\uB370, \uC6A9\uC561 \uD2B9\uC131\uAC12\uC744 \uC624\uB984\uCC28\uC21C\uC73C\uB85C \uC815\uB82C\uD558\uBA74 \uC6A9\uC561 \uD2B9\uC131\uAC12\uC758 \uC808\uB313\uAC12 \uC911 \uCD5C\uC19F\uAC12\uC744 \uC800\uC7A5\uD558\uB294 \uBD80\uBD84\uC5D0\uC11C \uBE44\uAD50\uD560 \uD544\uC694\uAC00 \uC5C6\uC5B4\uC9C4\uB2E4.</p></li><li><p>\uB9CC\uC57D \uD2B9\uC131\uAC12\uC758 \uC808\uB313\uAC12\uC774 0\uC778 \uC6A9\uC561\uC744 \uB450 \uAC1C \uC774\uC0C1 \uB9CC\uB4E4\uC5B4\uB0BC \uACBD\uC6B0\uC5D0 \uADF8 \uC911 \uC544\uBB34\uAC83\uC774\uB098 \uD558\uB098\uB97C \uCD9C\uB825\uD558\uBA74 \uB418\uBBC0\uB85C \uC800\uC7A5 \uD6C4 \uBC18\uBCF5 \uC885\uB8CC. <br><br></p></li></ul><h2 id="code" tabindex="-1"><a class="header-anchor" href="#code" aria-hidden="true">#</a> Code</h2><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>N = int(input())
+sol = list(map(int, input().split()))
+sol.sort()
+
+s1 = 0  # \uC6A9\uC561 \uD2B9\uC131\uAC12(\uC791\uC740 \uAC12)
+s2 = 0  # \uC6A9\uC561 \uD2B9\uC131\uAC12
+s_abs = 2000000001  # \uD63C\uD569\uD55C \uC6A9\uC561 \uD2B9\uC131\uAC12\uC758 \uC808\uB313\uAC12(default\uB294 \uCD5C\uB313\uAC12)
+left = 0
+right = N - 1
+
+while left &lt; right:
+    mix = sol[left] + sol[right]
+
+    if abs(mix) &lt; s_abs:
+        s_abs = abs(mix)
+        s1 = sol[left]
+        s2 = sol[right]
+
+    if mix == 0:
+        break
+    elif mix &lt; 0:
+        left += 1
+    else:
+        right -= 1
+
+print(s1, s2)
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br></div></div>`,9);function m(h,_){const n=a("RouterLink");return e(),r(t,null,[l("p",null,[i(n,{to:"/kyungbeen/"},{default:p(()=>[o]),_:1})]),d],64)}var x=s(u,[["render",m],["__file","boj_2470.html.vue"]]);export{x as default};

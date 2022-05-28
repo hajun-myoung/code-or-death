@@ -1,0 +1,1 @@
+const e={key:"v-9c4199f4",path:"/byeolhee/algorithm/bfs_dfs/boj_2606.html",title:"\uBC14\uC774\uB7EC\uC2A4",lang:"ko-KR",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1653291347e3,contributors:[{name:"KimByeolhee",email:"qufgml0216@naver.com",commits:1}]},filePathRelative:"byeolhee/algorithm/bfs_dfs/boj_2606.md"};export{e as data};

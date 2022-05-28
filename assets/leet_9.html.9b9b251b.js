@@ -1,0 +1,1 @@
+const e={key:"v-61e760b2",path:"/byeolhee/algorithm/string/leet_9.html",title:"Palindrome Number",lang:"ko-KR",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1649689045e3,contributors:[{name:"KimByeolhee",email:"qufgml0216@naver.com",commits:1}]},filePathRelative:"byeolhee/algorithm/string/leet_9.md"};export{e as data};

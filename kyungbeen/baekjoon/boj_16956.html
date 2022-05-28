@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.37">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>16956번 늑대와 양 | Code or Death</title><meta name="description" content="to code, or not to code. that is the problem">
+    <link rel="modulepreload" href="/code-or-death/assets/app.ab7b14ba.js"><link rel="modulepreload" href="/code-or-death/assets/boj_16956.html.e12fb04a.js"><link rel="modulepreload" href="/code-or-death/assets/boj_16956.html.139675e9.js">
+    <link rel="stylesheet" href="/code-or-death/assets/style.1645b557.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container no-sidebar"><!--[--><header ref_key="navbar" class="navbar"><div class="toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a href="/code-or-death/" class=""><img class="logo" src="/code-or-death/logo.png" alt="Code or Death"><span class="site-name can-hide">Code or Death</span></a></span><div class="navbar-items-wrapper" style=""><!--[--><!--]--><nav class="navbar-items can-hide"><!--[--><div class="navbar-item"><div class="navbar-dropdown-wrapper"><button class="navbar-dropdown-title" type="button" aria-label="Contributors"><span class="title">Contributors</span><span class="arrow down"></span></button><button class="navbar-dropdown-title-mobile" type="button" aria-label="Contributors"><span class="title">Contributors</span><span class="right arrow"></span></button><!--[--><ul style="display:none;" class="navbar-dropdown"><!--[--><li class="navbar-dropdown-item"><a href="/code-or-death/hajun/" class="" aria-label="hajun"><!--[--><!--]--> hajun <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/code-or-death/byeolhee/" class="" aria-label="byeolhee"><!--[--><!--]--> byeolhee <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/code-or-death/kihwan/" class="" aria-label="kihwan"><!--[--><!--]--> kihwan <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/code-or-death/nliker/" class="" aria-label="jeonghyun"><!--[--><!--]--> jeonghyun <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/code-or-death/jiyu/" class="" aria-label="jiyu"><!--[--><!--]--> jiyu <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/code-or-death/sujeong/" class="" aria-label="sujeong"><!--[--><!--]--> sujeong <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/code-or-death/kyungbeen/" class="router-link-active" aria-label="kyungbeen"><!--[--><!--]--> kyungbeen <!--[--><!--]--></a></li><!--]--></ul><!--]--></div></div><div class="navbar-item"><a class="external-link" href="https://github.com/hajun-myoung/code-or-death" rel="noopener noreferrer" target="_blank" aria-label="GitHub"><!--[--><!--]--> GitHub <span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span><!--[--><!--]--></a></div><!--]--></nav><!--[--><!--]--><button class="toggle-dark-button" title="toggle dark mode"><svg style="" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg style="display:none;" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="sidebar-mask"></div><!--[--><aside class="sidebar"><nav class="navbar-items"><!--[--><div class="navbar-item"><div class="navbar-dropdown-wrapper"><button class="navbar-dropdown-title" type="button" aria-label="Contributors"><span class="title">Contributors</span><span class="arrow down"></span></button><button class="navbar-dropdown-title-mobile" type="button" aria-label="Contributors"><span class="title">Contributors</span><span class="right arrow"></span></button><!--[--><ul style="display:none;" class="navbar-dropdown"><!--[--><li class="navbar-dropdown-item"><a href="/code-or-death/hajun/" class="" aria-label="hajun"><!--[--><!--]--> hajun <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/code-or-death/byeolhee/" class="" aria-label="byeolhee"><!--[--><!--]--> byeolhee <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/code-or-death/kihwan/" class="" aria-label="kihwan"><!--[--><!--]--> kihwan <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/code-or-death/nliker/" class="" aria-label="jeonghyun"><!--[--><!--]--> jeonghyun <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/code-or-death/jiyu/" class="" aria-label="jiyu"><!--[--><!--]--> jiyu <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/code-or-death/sujeong/" class="" aria-label="sujeong"><!--[--><!--]--> sujeong <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/code-or-death/kyungbeen/" class="router-link-active" aria-label="kyungbeen"><!--[--><!--]--> kyungbeen <!--[--><!--]--></a></li><!--]--></ul><!--]--></div></div><div class="navbar-item"><a class="external-link" href="https://github.com/hajun-myoung/code-or-death" rel="noopener noreferrer" target="_blank" aria-label="GitHub"><!--[--><!--]--> GitHub <span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span><!--[--><!--]--></a></div><!--]--></nav><!--[--><!--]--><!----><!--[--><!--]--></aside><!--]--><!--[--><main class="page"><!--[--><!--]--><div class="theme-default-content"><!--[--><p><a href="/code-or-death/kyungbeen/" class="">KyungBeen</a></p><h1 id="_16956번-늑대와-양" tabindex="-1"><a class="header-anchor" href="#_16956번-늑대와-양" aria-hidden="true">#</a> 16956번 늑대와 양</h1><h2 id="input" tabindex="-1"><a class="header-anchor" href="#input" aria-hidden="true">#</a> Input</h2><p>첫째 줄에 목장의 크기 R, C가 주어진다.</p><p>둘째 줄부터 R개의 줄에 목장의 상태가 주어진다. &#39;.&#39;는 빈 칸, &#39;S&#39;는 양, &#39;W&#39;는 늑대이다. <br><br></p><h2 id="output" tabindex="-1"><a class="header-anchor" href="#output" aria-hidden="true">#</a> Output</h2><p>늑대가 양이 있는 칸으로 갈 수 없게 할 수 있다면 첫째 줄에 1을 출력하고, 둘째 줄부터 R개의 줄에 목장의 상태를 출력한다. 울타리는 &#39;D&#39;로 출력한다. 울타리를 어떻게 설치해도 늑대가 양이 있는 칸으로 갈 수 있다면 첫째 줄에 0을 출력한다. <br><br></p><h2 id="explanation" tabindex="-1"><a class="header-anchor" href="#explanation" aria-hidden="true">#</a> Explanation</h2><ul><li><p>입력을 받으며 문자열 내 양과 늑대가 서로 옆칸에 있는지 확인, index로 늑대들 위치를 수집한다.</p></li><li><p>수집된 늑대들 위치를 바탕으로 위아래 칸도 확인(행이 1일 경우는 필요X)</p></li><li><p>맨위, 맨아래 행과 중간행 구분해서 확인</p></li><li><p>양옆뿐만 아니라 위아래로도 이동 가능하기 때문에 늑대와 인접 여부를 확인하여 울타리로 막을 수 있는지 확인하는 로직이 필요하다. <br><br></p></li></ul><h2 id="code" tabindex="-1"><a class="header-anchor" href="#code" aria-hidden="true">#</a> Code</h2><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>from sys import stdin
+
+R, C = map(int, stdin.readline().split())
+
+answer = []
+wolf = []  # 늑대들 위치
+safe = 1  # 양들의 상태
+idx_r = 0
+
+for i in range(R):
+    line = stdin.readline().strip().replace(&#39;.W&#39;, &#39;DW&#39;).replace(&#39;W.&#39;, &#39;WD&#39;)
+    if &#39;WS&#39; in line or &#39;SW&#39; in line:
+        safe = -1
+
+    idx_c = 0
+    for i in line:
+        if i == &#39;W&#39;:
+            wolf.append([idx_r, idx_c])
+        idx_c += 1
+    idx_r += 1
+    answer.append(list(line))
+
+if safe == 1 and R &gt; 1:
+    for i in wolf:
+        m, n = i
+
+        if m == 0 or m == R-1:
+            m = m + 1 if m == 0 else m - 1
+            if answer[m][n] == &#39;.&#39;:
+                answer[m][n] = &#39;D&#39;
+            elif answer[m][n] == &#39;S&#39;:
+                safe = -1
+        else:
+            for j in [-1, 1]:
+                if answer[m+j][n] == &#39;.&#39;:
+                    answer[m+j][n] = &#39;D&#39;
+                elif answer[m+j][n] == &#39;S&#39;:
+                    safe = -1
+
+if safe == 1:
+    print(1)
+    for i in answer:
+        print(&#39;&#39;.join(i))
+else:
+    print(0)
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br></div></div><!--]--></div><footer class="page-meta"><!----><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: bin9610@gmail.com">BeenKimKr</span><!----><!--]--><!--]--></span></div></footer><!----><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
+    <script type="module" src="/code-or-death/assets/app.ab7b14ba.js" defer></script>
+  </body>
+</html>

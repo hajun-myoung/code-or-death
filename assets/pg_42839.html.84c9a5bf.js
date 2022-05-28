@@ -1,0 +1,37 @@
+import{_ as p,r as e,o as t,c as o,a as n,b as c,F as l,d as s,e as r}from"./app.ab7b14ba.js";const u={},i={id:"\u1109\u1169\u1109\u116E\u110E\u1161\u11BD\u1100\u1175",tabindex:"-1"},k=n("a",{class:"header-anchor",href:"#\u1109\u1169\u1109\u116E\u110E\u1161\u11BD\u1100\u1175","aria-hidden":"true"},"#",-1),b=s(),m={href:"https://programmers.co.kr/learn/courses/30/lessons/42839",target:"_blank",rel:"noopener noreferrer"},d=s("\uC18C\uC218\uCC3E\uAE30"),_=r(`<div class="language-python ext-py line-numbers-mode"><pre class="language-python"><code><span class="token keyword">from</span> itertools <span class="token keyword">import</span> permutations
+<span class="token comment"># \uC785\uB825: \uC885\uC774 \uC870\uAC01\uC5D0 \uC801\uD78C \uC22B\uC790 \uBB38\uC790\uC5F4</span>
+<span class="token comment"># \uCD9C\uB825: \uB9CC\uB4E4\uC5B4\uC9C0\uB294 \uC18C\uC218 \uAC1C\uC218</span>
+
+<span class="token comment">## test case: 002\uC778 \uACBD\uC6B0\uB294 2\uB85C \uD310\uBCC4\uD574\uC57C\uD568</span>
+
+<span class="token keyword">def</span> <span class="token function">is_prime_number</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">if</span> x <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span>
+    <span class="token keyword">if</span> x <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span>
+    <span class="token keyword">else</span><span class="token punctuation">:</span>
+        <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span>x<span class="token punctuation">)</span><span class="token punctuation">:</span>
+            <span class="token keyword">if</span> x <span class="token operator">%</span> i <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span>
+                <span class="token keyword">return</span>
+        <span class="token keyword">return</span> x
+
+<span class="token keyword">def</span> <span class="token function">solution</span><span class="token punctuation">(</span>numbers<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token comment"># \uC885\uC774 \uC870\uAC01\uC5D0 \uC801\uD78C \uC22B\uC790\uB97C \uB2F4\uC740 \uBC30\uC5F4</span>
+    num_list <span class="token operator">=</span> <span class="token builtin">list</span><span class="token punctuation">(</span>numbers<span class="token punctuation">)</span>
+
+    <span class="token comment"># \uC885\uC774 \uC870\uAC01\uC73C\uB85C \uB9CC\uB4E0 \uC21C\uC5F4 \uB9AC\uC2A4\uD2B8</span>
+    answer <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+    <span class="token keyword">for</span> j <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token builtin">len</span><span class="token punctuation">(</span>numbers<span class="token punctuation">)</span><span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        temps <span class="token operator">=</span> <span class="token builtin">list</span><span class="token punctuation">(</span>permutations<span class="token punctuation">(</span>num_list<span class="token punctuation">,</span> j<span class="token punctuation">)</span><span class="token punctuation">)</span>
+        <span class="token keyword">for</span> temp <span class="token keyword">in</span> temps<span class="token punctuation">:</span>
+            number <span class="token operator">=</span> <span class="token string">&quot;&quot;</span>
+            <span class="token keyword">for</span> v <span class="token keyword">in</span> temp<span class="token punctuation">:</span>
+                number <span class="token operator">+=</span> v
+            <span class="token keyword">if</span><span class="token punctuation">(</span>number<span class="token punctuation">)</span><span class="token punctuation">:</span>
+                answer<span class="token punctuation">.</span>append<span class="token punctuation">(</span><span class="token builtin">int</span><span class="token punctuation">(</span>number<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+    <span class="token comment"># \uC911\uBCF5 \uC81C\uAC70</span>
+    answer <span class="token operator">=</span> <span class="token builtin">list</span><span class="token punctuation">(</span><span class="token builtin">set</span><span class="token punctuation">(</span>answer<span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token comment"># \uC18C\uC218 \uD310\uBCC4</span>
+    <span class="token keyword">return</span> <span class="token builtin">len</span><span class="token punctuation">(</span><span class="token punctuation">[</span>i <span class="token keyword">for</span> i <span class="token keyword">in</span> answer <span class="token keyword">if</span> is_prime_number<span class="token punctuation">(</span>i<span class="token punctuation">)</span> <span class="token operator">!=</span> <span class="token boolean">None</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br></div></div>`,1);function w(y,f){const a=e("ExternalLinkIcon");return t(),o(l,null,[n("h1",i,[k,b,n("a",m,[d,c(a)])]),_],64)}var x=p(u,[["render",w],["__file","pg_42839.html.vue"]]);export{x as default};
