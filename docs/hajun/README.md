@@ -60,6 +60,8 @@
 
 ### May 18, 2022
 
-- Leet Code
+- Leet Code, [#9. isPalindrome](./isPalindrome)
 
-  - [#9. isPalindrome](./isPalindrome)
+### May 28, 2022
+
+- Leet Code, [#22. Generate Pranthesis](./parentheses.md)
